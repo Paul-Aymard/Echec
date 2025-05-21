@@ -4,7 +4,7 @@ public class Main {
         Position start = new Position(4, 4);
                 Reine reine = new Reine(start);
 
-                Position target = new Position(5, 6); // déplacement en diagonale
+                Position target = new Position(6, 6);
                 if (reine.isValidMove(target)) {
                     System.out.println("Yes, I can move there.");
                 } else {
